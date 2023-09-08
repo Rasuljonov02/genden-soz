@@ -1,2 +1,3 @@
 # dars
 # randomsozlar
+# randomsozlar
