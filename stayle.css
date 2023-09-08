@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p {
+	/* display: none; */
+}
+body {
+	display: grid;
+	place-items: center;
+	width: 100%;
+	height: 100vh;
+	background: rgb(158, 87, 39);
+	background: linear-gradient(
+		90deg,
+		rgba(158, 87, 39, 1) 0%,
+		rgba(195, 103, 37, 1) 55%,
+		rgba(131, 67, 25, 1) 100%
+	);
+}
+main {
+	display: grid;
+	place-items: center;
+}
+
+.main1 {
+	width: 40vh;
+	height: 30vh;
+	/* background-color: aquamarine; */
+	display: grid;
+	place-items: center;
+}
+
+input {
+	padding: 10px 15px;
+	border: 2px solid black;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+input:hover {
+	border: 2px solid #120902;
+}
+input::placeholder {
+	color: #ac4e10;
+	font-size: 23px;
+}
+main button {
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+	/* border: 2px solid #743b15d8; */
+	background-color: #743b15d8;
+	color: white;
+	font-size: 25px;
+	/* background: none; */
+	cursor: progress;
+}
+main button:hover {
+	background-color: #30241c;
+	color: rgb(253, 104, 5);
+	transition: all 0.6s;
+}
+
+main button:active {
+	transform: scale(1.3);
+}
+
+/* sozni qidirish */
+.orta {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	flex-direction: column;
+}
+section {
+	width: 90vh;
+	background-color: #70421dd2;
+	border-radius: 10px;
+	display: grid;
+}
+.sozqidirish {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	height: 100px;
+}
+
+.btn2 {
+	padding: 8px 30px;
+	border-radius: 10px;
+	border: none;
+
+	background-color: #ac4e10;
+	color: white;
+	font-size: 25px;
+
+	cursor: progress;
+}
+.btn2:hover {
+	background-color: #30241c;
+	color: rgb(253, 104, 5);
+	transition: all 0.6s;
+}
+.btn2:active {
+	transform: scale(1.3);
+}
+
+/* chiqaradigan soz  */
+.surch {
+	display: none;
+	background-color: #552805b0;
+	height: 60vh;
+	width: 90vh;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 20px;
+	overflow-y: scroll;
+}
+.surch::-webkit-scrollbar {
+	width: 0;
+}
+
+p {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.438);
+}
+/* mark*/
+mark {
+	color: white;
+	background-color: #c45912;
+}
+/* malumot  */
+#malumotlist {
+	width: 400px;
+	height: 250px;
+	background-color: #944b1b;
+	box-sizing: border-box;
+	padding: 10px;
+	display: none;
+	flex-direction: column;
+	gap: 1.5rem;
+	border-radius: 10px;
+}
+.malumot {
+	padding: 8px 30px;
+	border-radius: 10px;
+	border: none;
+
+	background-color: #6b3009;
+	color: white;
+	font-size: 25px;
+
+	cursor: progress;
+}
+.malumot:hover {
+	background-color: #30241c;
+	color: rgb(253, 104, 5);
+	transition: all 0.6s;
+}
+.malumot:active {
+	transform: scale(1.3);
+}
+.bor,
+.yoq,
+.bor0 {
+	color: rgb(228, 201, 151);
+}
+#malumotlist {
+	text-align: center;
+}
+#malumotlist h1 {
+	color: wheat;
+}
+
+.btn4 {
+	padding: 8px 30px;
+	border-radius: 10px;
+	border: none;
+	display: none;
+	background-color: #ac4e10;
+	color: white;
+	font-size: 25px;
+
+	cursor: progress;
+}
+.btn4:hover {
+	background-color: #30241c;
+	color: rgb(253, 104, 5);
+	transition: all 0.6s;
+}
+.btn4:active {
+	transform: scale(1.3);
+}
